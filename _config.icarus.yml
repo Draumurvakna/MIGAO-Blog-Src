@@ -1,15 +1,15 @@
 version: 5.1.0
 variant: default
 logo:
-    light: /img/cyllogo.png
-    dark: /img/cyllogonight.png
-    # text: Chen Yulin's Blog
+    # light: /img/cyllogo.png
+    # dark: /img/cyllogonight.png
+    text: Draumurvakna's Blog
 head:
     favicon: /img/favicon.svg
     manifest:
         name: Icarus - Hexo Theme
         short_name: Icarus
-        start_url: https://chen-yulin.github.io/
+        start_url: https://draumurvakna.github.io/
         theme_color: '#6495ed'
         background_color: '#6495ed'
         display: standalone
@@ -101,22 +101,22 @@ search:
 #     proxy: http://127.0.0.1:7890
 #     flip_move_options:
 #     enable_hotkey: true
-comment:
-  type: twikoo
-  envId: https://blogcomment-cyl.netlify.app/.netlify/functions/twikoo # huggingface id
-  jsUrl: https://cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js
-sidebar:
-    left:
-        sticky: true
-    right:
-        sticky: false
+# comment:
+#   type: twikoo
+#   envId: https://blogcomment-cyl.netlify.app/.netlify/functions/twikoo # huggingface id
+#   jsUrl: https://cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js
+# sidebar:
+#     left:
+#         sticky: true
+#     right:
+#         sticky: false
 widgets:
     -
         position: left
         type: profile
-        author: Chen Yulin
-        author_title: SJTU student
-        location: Manchester by the Sea
+        author: Migao sama
+        author_title: HKU student
+        location: HK
         avatar:
         avatar_rounded: true
         gravatar:

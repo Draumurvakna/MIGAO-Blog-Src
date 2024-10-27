@@ -1,11 +1,11 @@
-title: Chen Yulin's Blog
+title: MIGAO's Blog
 subtitle: ''
 description: ''
 keywords: null
-author: Chen Yulin
+author: MIGAO
 language: en
 timezone: ''
-url: http://chen-yulin.github.io
+url: http://draumurvakna.github.io
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
@@ -66,93 +66,93 @@ theme: icarus
 custom_css: css/_custom.css
 deploy:
   type: git
-  repo: git@github.com:Chen-Yulin/Chen-Yulin.github.io.git
-  branch: master
-OhMyLive2d:
-  enable: true
-  CDN: https://registry.npmmirror.com/oh-my-live2d/latest/files
-  option:
-    libraryUrls:
-      complete: https://registry.npmmirror.com/oh-my-live2d/latest/files/lib/complete.js
-      cubism2: https://registry.npmmirror.com/oh-my-live2d/latest/files/lib/cubism2.js
-      cubism5: https://registry.npmmirror.com/oh-my-live2d/latest/files/lib/cubism5.js
-    dockedPosition: left
-    mobileDisplay: true
-    models:
-      # - path: https://model.oml2d.com/cat-white/model.json
-      #   mobilePosition:
-      #     - 0
-      #     - 0
-      #   mobileScale: 0.1
-      #   mobileStageStyle:
-      #     width: 150
-      #     height: 200
-      #   motionPreloadStrategy: ALL
-      #   position:
-      #     - 0
-      #     - 0
-      #   scale: 0.2
-      #   stageStyle:
-      #     width: 350
-      #     height: 450
-      # - path: https://model.oml2d.com/cat-black/model.json
-      #   mobilePosition:
-      #     - 0
-      #     - 0
-      #   mobileScale: 0.1
-      #   mobileStageStyle:
-      #     width: 150
-      #     height: 200
-      #   motionPreloadStrategy: ALL
-      #   position:
-      #     - 0
-      #     - 0
-      #   scale: 0.2
-      #   stageStyle:
-      #     width: 350
-      #     height: 450
-      - path: https://model.oml2d.com/mai/model.json
-        mobilePosition:
-          - 25
-          - 0
-        mobileScale: 0.1
-        mobileStageStyle:
-          width: 125
-          height: 175
-        motionPreloadStrategy: ALL
-        position:
-          - 50
-          - 0
-        scale: 0.2
-        stageStyle:
-          width: 250
-          height: 350
-    parentElement: document.body
-    primaryColor: var(--btn-bg)
-    sayHello: false
-    tips:
-      style:
-        width: 230
-        height: 120
-        left: calc(50% - 20px)
-        top: '-100px'
-      mobileStyle:
-        width: 180
-        height: 80
-        left: calc(50% - 30px)
-        top: '-100px'
-      idleTips:
-        interval: 15000
-        message: |
-          function(){
-            return axios.get('https://v1.hitokoto.cn?c=i')
-              .then(function (response) {
-                return response.data.hitokoto ;
-              })
-              .catch(function (error) {
-                console.error(error);
-              });
-          }
+  repo: git@github.com:Draumurvakna/Draumurvakna.github.io.git
+  branch: main
+# OhMyLive2d:
+#   enable: true
+#   CDN: https://registry.npmmirror.com/oh-my-live2d/latest/files
+#   option:
+#     libraryUrls:
+#       complete: https://registry.npmmirror.com/oh-my-live2d/latest/files/lib/complete.js
+#       cubism2: https://registry.npmmirror.com/oh-my-live2d/latest/files/lib/cubism2.js
+#       cubism5: https://registry.npmmirror.com/oh-my-live2d/latest/files/lib/cubism5.js
+#     dockedPosition: left
+#     mobileDisplay: true
+#     models:
+#       # - path: https://model.oml2d.com/cat-white/model.json
+#       #   mobilePosition:
+#       #     - 0
+#       #     - 0
+#       #   mobileScale: 0.1
+#       #   mobileStageStyle:
+#       #     width: 150
+#       #     height: 200
+#       #   motionPreloadStrategy: ALL
+#       #   position:
+#       #     - 0
+#       #     - 0
+#       #   scale: 0.2
+#       #   stageStyle:
+#       #     width: 350
+#       #     height: 450
+#       # - path: https://model.oml2d.com/cat-black/model.json
+#       #   mobilePosition:
+#       #     - 0
+#       #     - 0
+#       #   mobileScale: 0.1
+#       #   mobileStageStyle:
+#       #     width: 150
+#       #     height: 200
+#       #   motionPreloadStrategy: ALL
+#       #   position:
+#       #     - 0
+#       #     - 0
+#       #   scale: 0.2
+#       #   stageStyle:
+#       #     width: 350
+#       #     height: 450
+#       - path: https://model.oml2d.com/mai/model.json
+#         mobilePosition:
+#           - 25
+#           - 0
+#         mobileScale: 0.1
+#         mobileStageStyle:
+#           width: 125
+#           height: 175
+#         motionPreloadStrategy: ALL
+#         position:
+#           - 50
+#           - 0
+#         scale: 0.2
+#         stageStyle:
+#           width: 250
+#           height: 350
+#     parentElement: document.body
+#     primaryColor: var(--btn-bg)
+#     sayHello: false
+#     tips:
+#       style:
+#         width: 230
+#         height: 120
+#         left: calc(50% - 20px)
+#         top: '-100px'
+#       mobileStyle:
+#         width: 180
+#         height: 80
+#         left: calc(50% - 30px)
+#         top: '-100px'
+#       idleTips:
+#         interval: 15000
+#         message: |
+#           function(){
+#             return axios.get('https://v1.hitokoto.cn?c=i')
+#               .then(function (response) {
+#                 return response.data.hitokoto ;
+#               })
+#               .catch(function (error) {
+#                 console.error(error);
+#               });
+#           }
 aplayer:
   cdn: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
   style_cdn: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
