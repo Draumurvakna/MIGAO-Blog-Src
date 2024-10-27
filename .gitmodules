@@ -1,0 +1,6 @@
+[submodule "themes/icarus"]
+	path = themes/icarus
+	url = https://github.com/Chen-Yulin/icarus.git
+[submodule "SyncObsidian"]
+	path = SyncObsidian
+	url = https://github.com/Chen-Yulin/HexoSyncObsidian

@@ -1,0 +1,191 @@
+version: 5.1.0
+variant: default
+logo:
+    light: /img/cyllogo.png
+    dark: /img/cyllogonight.png
+    # text: Chen Yulin's Blog
+head:
+    favicon: /img/favicon.svg
+    manifest:
+        name: Icarus - Hexo Theme
+        short_name: Icarus
+        start_url: https://chen-yulin.github.io/
+        theme_color: '#6495ed'
+        background_color: '#6495ed'
+        display: standalone
+        icons:
+            -
+                src: ''
+                sizes: ''
+                type:
+    open_graph:
+        title:
+        type: blog
+        url:
+        image:
+        site_name:
+        author:
+        description:
+        twitter_card:
+        twitter_id:
+        twitter_site:
+        google_plus:
+        fb_admins:
+        fb_app_id:
+    structured_data:
+        title:
+        description:
+        url:
+        author:
+        publisher:
+        publisher_logo:
+        image:
+    meta:
+        - name=theme-color;content=#123456
+    rss:
+navbar:
+    menu:
+        Home: /
+        Archives: /archives
+        Categories: /categories
+        Tags: /tags
+        About: /about
+    links:
+        Download on GitHub:
+            icon: fab fa-github
+            url: https://github.com/Chen-Yulin
+footer:
+    links:
+        Creative Commons:
+            icon: fab fa-creative-commons
+            url: https://creativecommons.org/
+        Attribution 4.0 International:
+            icon: fab fa-creative-commons-by
+            url: https://creativecommons.org/licenses/by/4.0/
+        Download on GitHub:
+            icon: fab fa-github
+            url: https://github.com/Chen-Yulin
+article:
+    highlight:
+        theme: atom-one-light
+        line_number: true
+        clipboard: true
+        fold: unfolded
+    readtime: true
+    update_time: true
+    licenses:
+        Creative Commons:
+            icon: fab fa-creative-commons
+            url: https://creativecommons.org/
+        Attribution:
+            icon: fab fa-creative-commons-by
+            url: https://creativecommons.org/licenses/by/4.0/
+        Noncommercial:
+            icon: fab fa-creative-commons-nc
+            url: https://creativecommons.org/licenses/by-nc/4.0/
+search:
+    type: insight
+# comment:
+#     type: gitalk
+#     client_id: d74bb6b85c62023e3c71
+#     client_secret: 3948c6a5da4b694ad003c0ce091700653f2ae7eb
+#     repo: Chen-Yulin.github.io
+#     owner: Chen-Yulin
+#     admin:
+#         - Chen-Yulin
+#     language: en
+#     per_page: 6
+#     distraction_free_mode: false
+#     pager_direction: last
+#     create_issue_manually: false
+#     proxy: http://127.0.0.1:7890
+#     flip_move_options:
+#     enable_hotkey: true
+comment:
+  type: twikoo
+  envId: https://blogcomment-cyl.netlify.app/.netlify/functions/twikoo # huggingface id
+  jsUrl: https://cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js
+sidebar:
+    left:
+        sticky: true
+    right:
+        sticky: false
+widgets:
+    -
+        position: left
+        type: profile
+        author: Chen Yulin
+        author_title: SJTU student
+        location: Manchester by the Sea
+        avatar:
+        avatar_rounded: true
+        gravatar:
+        follow_link: https://github.com/Chen-Yulin
+        social_links:
+            Github:
+                icon: fab fa-github
+                url: https://github.com/Chen-Yulin
+    -
+        position: left
+        type: toc
+        index: false
+        collapsed: false
+        depth: 3
+    -
+        position: left
+        type: archives
+    -
+        position: right
+        type: recent_posts
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: right
+        type: tags
+        # How to order tags. For example 'name' to order by name in ascending order, and '-length' to order by number of posts in each tags in descending order
+        order_by: name
+        # Amount of tags to show. Will show all if not set.
+        amount:
+        # Whether to show tags count, i.e. number of posts in the tag.
+        show_count: true
+plugins:
+    animejs: true
+    back_to_top: true
+    baidu_analytics:
+        tracking_id:
+    bing_webmaster:
+        tracking_id:
+    busuanzi: false
+    cnzz:
+        id:
+        web_id:
+    cookie_consent:
+        type: info
+        theme: edgeless
+        static: false
+        position: bottom-left
+        policyLink: https://www.cookiesandyou.com/
+    gallery: true
+    google_analytics:
+        tracking_id:
+    hotjar:
+        site_id:
+    katex: false
+    mathjax: false
+    outdated_browser: false
+    progressbar: true
+    statcounter:
+        project:
+        security:
+    twitter_conversion_tracking:
+        pixel_id:
+providers:
+    cdn: jsdelivr
+    fontcdn: google
+    iconcdn: fontawesome
+sitemap:
+  path: sitemap.xml
+  # 此配置跟后面新建的文件名相同
+  template: ./sitemap_template.xml
+aplayerInject:
+  enable: true
+  per_page: true
