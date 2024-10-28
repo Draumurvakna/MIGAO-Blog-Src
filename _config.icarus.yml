@@ -53,7 +53,7 @@ navbar:
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/Chen-Yulin
+            url: https://github.com/Draumurvakna
 footer:
     links:
         Creative Commons:
@@ -64,7 +64,7 @@ footer:
             url: https://creativecommons.org/licenses/by/4.0/
         Download on GitHub:
             icon: fab fa-github
-            url: https://github.com/Chen-Yulin
+            url: https://github.com/Draumurvakna
 article:
     highlight:
         theme: atom-one-light
@@ -120,11 +120,11 @@ widgets:
         avatar:
         avatar_rounded: true
         gravatar:
-        follow_link: https://github.com/Chen-Yulin
+        follow_link: https://github.com/Draumurvakna
         social_links:
             Github:
                 icon: fab fa-github
-                url: https://github.com/Chen-Yulin
+                url: https://github.com/Draumurvakna
     -
         position: left
         type: toc
